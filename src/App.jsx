@@ -1,23 +1,22 @@
-import Navbar from "./components/Navbar";
-import Hero from "./assets/sections/Hero";
-import About from "./assets/sections/About";
-import Skills from "./assets/sections/Skills";
-import Projects from "./assets/sections/Projects";
-import Contact from "./assets/sections/Contact";
-import Footer from "./components/Footer";
+import React from 'react';
+import Navbar from './components/Navbar';
+import Hero from './assets/sections/Hero';
+import About from './assets/sections/About';
+import Skills from './assets/sections/Skills';
+import Projects from './assets/sections/Projects';
+import ContactFooter from './components/ContactFooter';
 
 function App() {
   return (
-    <div className="bg-slate-950 text-white">
+    <div className="bg-slate-950 min-h-screen text-white">
       <Navbar />
       <Hero />
       <About />
       <Skills />
       <Projects />
-      <Contact />
-      <Footer />
+      <ContactFooter />
     </div>
   );
-};
+}
 
 export default App;
