@@ -10,7 +10,7 @@ const About = () => {
           <div>
             <h3 className="text-xl font-semibold text-white mb-2">Who I Am</h3>
             <p>
-              I am a passionate Frontend Developer with a strong foundation in Computer Engineering. I specialize in turning design concepts into interactive, user-friendly, and responsive web applications.
+              I build responsive and user-friendly web applications using React and modern frontend technologies. I specialize in turning design concepts into interactive, user-friendly, and responsive web applications.
             </p>
           </div>
 

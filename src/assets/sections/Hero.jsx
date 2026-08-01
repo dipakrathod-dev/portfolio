@@ -13,7 +13,7 @@ const Hero = () => {
         </h1>
 
         <h2 className="text-xl sm:text-3xl text-gray-300 font-medium">
-          Frontend Developer | React Developer
+          Frontend Developer | React Developer | Computer Engineering Student
         </h2>
 
         <p className="text-gray-400 max-w-2xl mx-auto text-base sm:text-lg">
@@ -23,22 +23,22 @@ const Hero = () => {
         <div className="flex flex-wrap justify-center gap-4 pt-4">
           <a
             href="#contact"
-            className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 font-medium rounded-lg transition-all transform hover:-translate-y-0.5 shadow-lg shadow-indigo-600/30"
+            className="px-6 py-3 bg-green-600 text-white rounded-lg"
           >
             Contact Me
           </a>
           <a
-            href="https://github.com/dipakrathod-dev" 
-            target="_blank" 
+            href="https://github.com/dipakrathod-dev"
+            target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-3 bg-slate-800 hover:bg-slate-700 text-gray-200 font-medium rounded-lg border border-slate-700 transition-all"
           >
             GitHub
           </a>
           <a
-            href="/resume.pdf" 
+            href="/Dipak_Rathod_Resume.pdf"
             target="_blank"
-            className="px-6 py-3 border border-indigo-500/50 hover:bg-indigo-500/10 text-indigo-400 font-medium rounded-lg transition-all"
+            rel="noopener noreferrer"
+            className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
           >
             Resume
           </a>
